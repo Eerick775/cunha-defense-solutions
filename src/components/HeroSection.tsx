@@ -1,7 +1,7 @@
 import { Phone, Shield, CheckCircle, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
-import heroImage from "@/assets/hero-lawyer.jpg";
-import logoE from "@/assets/logo-e.png";
+import heroPhoto from "@/assets/hero-photo.jpg";
+import logo from "@/assets/logo.jpg";
 
 const HeroSection = () => {
   return (
@@ -9,13 +9,22 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card" />
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        {/* Logo "E" with prominence */}
+        {/* Logo original com destaque */}
         <div className="mb-12 flex justify-center lg:justify-start">
-          <img src={logoE} alt="Erick Costa Cunha Advocacia" className="h-32 sm:h-40 w-auto drop-shadow-2xl" />
+          <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-36 sm:h-44 lg:h-52 w-auto drop-shadow-2xl" />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
+            {/* Foto visível em telas menores */}
+            <div className="flex justify-center lg:hidden mb-4">
+              <img
+                src={heroPhoto}
+                alt="Erick Cunha - Advogado Criminalista"
+                className="rounded-2xl w-64 sm:w-72 object-cover shadow-2xl"
+              />
+            </div>
+
             <div>
               <p className="text-silver font-bold text-sm uppercase tracking-widest mb-4">
                 Advogado Criminalista
@@ -58,11 +67,12 @@ const HeroSection = () => {
             </div>
           </div>
 
+          {/* Foto em telas grandes */}
           <div className="hidden lg:flex justify-center">
             <div className="relative">
               <div className="absolute -inset-4 bg-gradient-to-tr from-primary/20 via-transparent to-[hsl(var(--silver)/.15)] rounded-2xl blur-2xl" />
               <img
-                src={heroImage}
+                src={heroPhoto}
                 alt="Erick Cunha - Advogado Criminalista"
                 className="relative rounded-2xl w-full max-w-md object-cover shadow-2xl"
                 width={896}
