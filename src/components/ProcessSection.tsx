@@ -11,7 +11,7 @@ const ProcessSection = () => {
     <section className="section-padding">
       <div className="max-w-5xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Como Funciona</p>
+          <p className="text-silver font-bold text-sm uppercase tracking-widest">Como Funciona</p>
           <h2 className="section-title">O Que Acontece Agora?</h2>
         </div>
 
@@ -21,7 +21,7 @@ const ProcessSection = () => {
               <div className="w-16 h-16 bg-primary/10 border border-primary/30 rounded-2xl flex items-center justify-center mx-auto">
                 <step.icon className="w-7 h-7 text-primary" />
               </div>
-              <p className="text-gold font-bold text-sm">{step.number}</p>
+              <p className="text-primary font-bold text-sm">{step.number}</p>
               <h3 className="text-xl font-bold text-foreground">{step.title}</h3>
               <p className="text-muted-foreground">{step.desc}</p>
               {i < 2 && (
@@ -31,7 +31,7 @@ const ProcessSection = () => {
           ))}
         </div>
 
-        <p className="text-center text-lg font-semibold text-foreground">
+        <p className="text-center text-lg font-bold text-foreground">
           Quanto antes você agir, <span className="text-primary">mais opções você terá.</span>
         </p>
       </div>

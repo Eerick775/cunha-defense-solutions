@@ -12,7 +12,7 @@ const WhyChooseSection = () => {
     <section className="section-padding bg-card">
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Por Que Erick Cunha</p>
+          <p className="text-silver font-bold text-sm uppercase tracking-widest">Por Que Erick Cunha</p>
           <h2 className="section-title">Por Que Escolher Erick Cunha?</h2>
         </div>
 
@@ -20,16 +20,16 @@ const WhyChooseSection = () => {
           {reasons.map((r) => (
             <div key={r.title} className="flex items-start gap-4 bg-secondary rounded-xl p-6">
               <r.icon className="w-6 h-6 text-primary flex-shrink-0 mt-0.5" />
-              <p className="text-foreground font-semibold">{r.title}</p>
+              <p className="text-foreground font-bold">{r.title}</p>
             </div>
           ))}
         </div>
 
         <p className="text-center text-lg text-muted-foreground italic">
           Você não está apenas contratando um advogado.{" "}
-          <span className="text-foreground font-semibold not-italic">
+          <strong className="text-foreground not-italic">
             Está escolhendo quem vai ficar entre você e uma condenação.
-          </span>
+          </strong>
         </p>
       </div>
     </section>

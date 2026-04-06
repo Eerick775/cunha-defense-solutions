@@ -1,7 +1,7 @@
 import { Phone, Shield, CheckCircle, Lock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import heroImage from "@/assets/hero-lawyer.jpg";
-import logo from "@/assets/logo.jpg";
+import logoE from "@/assets/logo-e.png";
 
 const HeroSection = () => {
   return (
@@ -9,20 +9,20 @@ const HeroSection = () => {
       <div className="absolute inset-0 bg-gradient-to-b from-background via-background to-card" />
       
       <div className="relative z-10 w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20">
-        {/* Logo with prominence */}
+        {/* Logo "E" with prominence */}
         <div className="mb-12 flex justify-center lg:justify-start">
-          <img src={logo} alt="Erick Costa Cunha Advocacia" className="h-28 sm:h-36 w-auto drop-shadow-2xl" />
+          <img src={logoE} alt="Erick Costa Cunha Advocacia" className="h-32 sm:h-40 w-auto drop-shadow-2xl" />
         </div>
 
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-8">
             <div>
-              <p className="text-gold font-semibold text-sm uppercase tracking-widest mb-4">
+              <p className="text-silver font-bold text-sm uppercase tracking-widest mb-4">
                 Advogado Criminalista
               </p>
               <h1 className="text-4xl sm:text-5xl lg:text-6xl font-black leading-[1.1] tracking-tight">
                 Você Não Precisa de Sorte.{" "}
-                <span className="text-primary">Precisa da Defesa Certa.</span>
+                <span className="text-primary font-black">Precisa da Defesa Certa.</span>
               </h1>
             </div>
 
@@ -51,7 +51,7 @@ const HeroSection = () => {
                 { icon: Lock, text: "Atendimento Sigiloso e Imediato" },
               ].map((item) => (
                 <div key={item.text} className="flex items-center gap-2 text-sm text-silver">
-                  <item.icon className="w-4 h-4 text-gold flex-shrink-0" />
+                  <item.icon className="w-4 h-4 text-primary flex-shrink-0" />
                   <span>{item.text}</span>
                 </div>
               ))}

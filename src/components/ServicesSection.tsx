@@ -14,7 +14,7 @@ const ServicesSection = () => {
     <section className="section-padding bg-card">
       <div className="max-w-6xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Áreas de Atuação</p>
+          <p className="text-silver font-bold text-sm uppercase tracking-widest">Áreas de Atuação</p>
           <h2 className="section-title">Áreas de Defesa Criminal</h2>
         </div>
 
@@ -29,7 +29,7 @@ const ServicesSection = () => {
 
         <p className="text-center text-muted-foreground">
           Não sabe em qual área seu caso se encaixa?{" "}
-          <a href="https://wa.me/5534996550410" target="_blank" rel="noopener noreferrer" className="text-primary font-semibold hover:underline">
+          <a href="https://wa.me/5534996550410" target="_blank" rel="noopener noreferrer" className="text-primary font-bold hover:underline">
             Fale diretamente com Erick.
           </a>
         </p>

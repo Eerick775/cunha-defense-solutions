@@ -2,56 +2,52 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
-
 @layer base {
   :root {
-    --background: 196 54% 10%;
+    --background: 196 55% 28%;
     --foreground: 210 20% 92%;
 
-    --card: 196 50% 14%;
+    --card: 196 50% 24%;
     --card-foreground: 210 20% 92%;
 
-    --popover: 196 50% 14%;
+    --popover: 196 50% 24%;
     --popover-foreground: 210 20% 92%;
 
-    --primary: 38 65% 52%;
-    --primary-foreground: 196 54% 8%;
+    --primary: 210 15% 78%;
+    --primary-foreground: 196 55% 15%;
 
-    --secondary: 210 10% 28%;
-    --secondary-foreground: 210 15% 85%;
+    --secondary: 196 40% 32%;
+    --secondary-foreground: 210 15% 88%;
 
-    --muted: 196 40% 18%;
-    --muted-foreground: 196 15% 55%;
+    --muted: 196 40% 22%;
+    --muted-foreground: 196 15% 60%;
 
-    --accent: 38 65% 52%;
-    --accent-foreground: 196 54% 8%;
+    --accent: 210 15% 78%;
+    --accent-foreground: 196 55% 15%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 196 30% 20%;
-    --input: 196 30% 20%;
-    --ring: 38 65% 52%;
+    --border: 196 30% 35%;
+    --input: 196 30% 35%;
+    --ring: 210 15% 78%;
 
     --radius: 0.5rem;
 
-    --sidebar-background: 196 54% 7%;
+    --sidebar-background: 196 55% 20%;
     --sidebar-foreground: 210 15% 88%;
-    --sidebar-primary: 38 65% 52%;
-    --sidebar-primary-foreground: 196 54% 8%;
-    --sidebar-accent: 196 45% 16%;
+    --sidebar-primary: 210 15% 78%;
+    --sidebar-primary-foreground: 196 55% 15%;
+    --sidebar-accent: 196 45% 30%;
     --sidebar-accent-foreground: 210 15% 88%;
-    --sidebar-border: 196 35% 18%;
-    --sidebar-ring: 38 65% 52%;
+    --sidebar-border: 196 35% 30%;
+    --sidebar-ring: 210 15% 78%;
 
     /* Custom tokens */
-    --gold: 38 65% 52%;
-    --gold-foreground: 196 54% 8%;
-    --silver: 210 10% 75%;
-    --silver-foreground: 196 54% 10%;
-    --surface-elevated: 196 45% 16%;
-    --text-dim: 196 15% 45%;
+    --silver: 210 10% 78%;
+    --silver-foreground: 196 55% 15%;
+    --surface-elevated: 196 45% 30%;
+    --text-dim: 196 15% 55%;
   }
 }
 
@@ -61,15 +57,12 @@
   }
 
   body {
-    @apply bg-background text-foreground font-sans antialiased;
-    font-family: 'Inter', system-ui, sans-serif;
+    @apply bg-background text-foreground antialiased;
+    font-family: 'Times New Roman', 'Georgia', serif;
   }
 }
 
 @layer utilities {
-  .text-gold {
-    color: hsl(var(--gold));
-  }
   .text-silver {
     color: hsl(var(--silver));
   }

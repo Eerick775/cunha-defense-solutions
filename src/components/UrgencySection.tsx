@@ -8,7 +8,7 @@ const UrgencySection = () => {
     <section className="section-padding bg-card relative overflow-hidden">
       <div className="absolute top-0 left-0 w-full h-1 bg-primary" />
       <div className="max-w-4xl mx-auto text-center space-y-8">
-        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 text-primary text-sm font-semibold">
+        <div className="inline-flex items-center gap-2 bg-primary/10 border border-primary/20 rounded-full px-4 py-2 text-primary text-sm font-bold">
           <AlertTriangle className="w-4 h-4" />
           Urgente
         </div>
@@ -25,13 +25,13 @@ const UrgencySection = () => {
           {risks.map((risk) => (
             <div key={risk} className="flex items-center gap-3 bg-secondary rounded-lg px-4 py-3">
               <span className="w-2 h-2 bg-primary rounded-full flex-shrink-0" />
-              <span className="text-secondary-foreground font-medium">{risk}</span>
+              <span className="text-secondary-foreground font-bold">{risk}</span>
             </div>
           ))}
         </div>
 
         <div className="space-y-4 pt-4">
-          <p className="text-foreground font-semibold text-lg">
+          <p className="text-foreground font-bold text-lg">
             A acusação já está montando o caso contra você.
             <br />
             <span className="text-primary">Você precisa de alguém montando o seu. Agora.</span>
