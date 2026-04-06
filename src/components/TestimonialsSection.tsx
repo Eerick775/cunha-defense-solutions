@@ -2,13 +2,13 @@ import { Star, Quote } from "lucide-react";
 
 const testimonials = [
   {
-    text: "Erick acted fast and knew exactly what to do. He changed the outcome of my case.",
+    text: "Erick agiu rápido e sabia exatamente o que fazer. Ele mudou o resultado do meu caso.",
   },
   {
-    text: "Professional, direct, and extremely competent. I felt protected the entire time.",
+    text: "Profissional, direto e extremamente competente. Me senti protegido o tempo todo.",
   },
   {
-    text: "If you're in trouble, he's the person you want on your side.",
+    text: "Se você está em apuros, ele é a pessoa que você quer ao seu lado.",
   },
 ];
 
@@ -17,8 +17,8 @@ const TestimonialsSection = () => {
     <section className="section-padding">
       <div className="max-w-6xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Testimonials</p>
-          <h2 className="section-title">What Clients Say</h2>
+          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Depoimentos</p>
+          <h2 className="section-title">O Que Nossos Clientes Dizem</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-6">

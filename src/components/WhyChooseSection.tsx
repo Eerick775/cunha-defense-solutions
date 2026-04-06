@@ -1,10 +1,10 @@
 import { Zap, MessageCircle, Target, Clock } from "lucide-react";
 
 const reasons = [
-  { icon: Zap, title: "Strategic, not reactive defense" },
-  { icon: MessageCircle, title: "Direct communication (no middlemen)" },
-  { icon: Target, title: "Focus on results, not excuses" },
-  { icon: Clock, title: "Immediate response in urgent situations" },
+  { icon: Zap, title: "Defesa estratégica, não reativa" },
+  { icon: MessageCircle, title: "Comunicação direta (sem intermediários)" },
+  { icon: Target, title: "Foco em resultados, não em desculpas" },
+  { icon: Clock, title: "Resposta imediata em situações urgentes" },
 ];
 
 const WhyChooseSection = () => {
@@ -12,8 +12,8 @@ const WhyChooseSection = () => {
     <section className="section-padding bg-card">
       <div className="max-w-4xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Why Erick Cunha</p>
-          <h2 className="section-title">Why Choose Erick Cunha?</h2>
+          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Por Que Erick Cunha</p>
+          <h2 className="section-title">Por Que Escolher Erick Cunha?</h2>
         </div>
 
         <div className="grid sm:grid-cols-2 gap-6">
@@ -26,9 +26,9 @@ const WhyChooseSection = () => {
         </div>
 
         <p className="text-center text-lg text-muted-foreground italic">
-          You're not just hiring a lawyer.{" "}
+          Você não está apenas contratando um advogado.{" "}
           <span className="text-foreground font-semibold not-italic">
-            You're choosing who will stand between you and a conviction.
+            Está escolhendo quem vai ficar entre você e uma condenação.
           </span>
         </p>
       </div>

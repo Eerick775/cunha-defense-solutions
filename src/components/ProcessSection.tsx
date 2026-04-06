@@ -1,9 +1,9 @@
 import { Phone, FileSearch, Shield } from "lucide-react";
 
 const steps = [
-  { icon: Phone, number: "01", title: "Contact", desc: "You reach out via call or form" },
-  { icon: FileSearch, number: "02", title: "Case Evaluation", desc: "Erick analyzes your situation" },
-  { icon: Shield, number: "03", title: "Defense Strategy", desc: "Immediate action begins" },
+  { icon: Phone, number: "01", title: "Contato", desc: "Você entra em contato por ligação ou WhatsApp" },
+  { icon: FileSearch, number: "02", title: "Avaliação do Caso", desc: "Erick analisa sua situação" },
+  { icon: Shield, number: "03", title: "Estratégia de Defesa", desc: "A ação imediata começa" },
 ];
 
 const ProcessSection = () => {
@@ -11,8 +11,8 @@ const ProcessSection = () => {
     <section className="section-padding">
       <div className="max-w-5xl mx-auto space-y-12">
         <div className="text-center space-y-4">
-          <p className="text-gold font-semibold text-sm uppercase tracking-widest">How It Works</p>
-          <h2 className="section-title">What Happens Next?</h2>
+          <p className="text-gold font-semibold text-sm uppercase tracking-widest">Como Funciona</p>
+          <h2 className="section-title">O Que Acontece Agora?</h2>
         </div>
 
         <div className="grid md:grid-cols-3 gap-8">
@@ -32,7 +32,7 @@ const ProcessSection = () => {
         </div>
 
         <p className="text-center text-lg font-semibold text-foreground">
-          The sooner you act, <span className="text-primary">the more options you have.</span>
+          Quanto antes você agir, <span className="text-primary">mais opções você terá.</span>
         </p>
       </div>
     </section>

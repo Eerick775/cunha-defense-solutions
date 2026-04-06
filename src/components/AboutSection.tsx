@@ -2,10 +2,10 @@ import { Target, Search, FileX, ShieldCheck } from "lucide-react";
 
 const AboutSection = () => {
   const capabilities = [
-    { icon: Search, text: "Challenge evidence" },
-    { icon: FileX, text: "Expose procedural errors" },
-    { icon: Target, text: "Reduce or dismiss charges" },
-    { icon: ShieldCheck, text: "Protect your rights at every stage" },
+    { icon: Search, text: "Questionar provas" },
+    { icon: FileX, text: "Expor erros processuais" },
+    { icon: Target, text: "Reduzir ou arquivar acusações" },
+    { icon: ShieldCheck, text: "Proteger seus direitos em todas as fases" },
   ];
 
   return (
@@ -13,10 +13,10 @@ const AboutSection = () => {
       <div className="max-w-6xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
-            <p className="text-gold font-semibold text-sm uppercase tracking-widest">About</p>
-            <h2 className="section-title">Meet Erick Cunha</h2>
+            <p className="text-gold font-semibold text-sm uppercase tracking-widest">Sobre</p>
+            <h2 className="section-title">Conheça Erick Cunha</h2>
             <p className="text-muted-foreground text-lg leading-relaxed">
-              Erick Cunha is a criminal defense attorney focused on protecting individuals facing serious legal challenges. With a strategic and aggressive defense approach, he works to safeguard your future.
+              Erick Cunha é advogado criminalista focado em proteger pessoas que enfrentam desafios jurídicos graves. Com uma abordagem estratégica e agressiva de defesa, ele trabalha para proteger o seu futuro.
             </p>
           </div>
 

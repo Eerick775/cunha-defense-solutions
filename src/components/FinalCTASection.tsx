@@ -7,24 +7,26 @@ const FinalCTASection = () => {
       <div className="absolute inset-0 bg-gradient-to-r from-primary/5 via-transparent to-primary/5" />
       <div className="relative max-w-3xl mx-auto text-center space-y-8">
         <h2 className="text-3xl sm:text-4xl lg:text-5xl font-black tracking-tight">
-          Your Defense Starts <span className="text-primary">Right Now</span>
+          Sua Defesa Começa <span className="text-primary">Agora</span>
         </h2>
 
         <p className="text-muted-foreground text-lg max-w-xl mx-auto">
-          The decisions you make today will impact the rest of your life.
+          As decisões que você toma hoje vão impactar o resto da sua vida.
           <br />
-          <span className="text-foreground font-semibold">Don't wait. Don't guess. Don't risk it.</span>
+          <span className="text-foreground font-semibold">Não espere. Não adivinhe. Não arrisque.</span>
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="text-lg px-10 py-7 font-bold shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all">
-            Speak With Erick Cunha Now
+          <Button size="lg" className="text-lg px-10 py-7 font-bold shadow-lg shadow-primary/30 hover:shadow-primary/50 transition-all" asChild>
+            <a href="https://wa.me/5534996550410" target="_blank" rel="noopener noreferrer">
+              Fale Com Erick Cunha Agora
+            </a>
           </Button>
         </div>
 
         <p className="text-muted-foreground flex items-center justify-center gap-2">
           <Phone className="w-4 h-4" />
-          Available for urgent cases
+          Disponível para casos urgentes
         </p>
       </div>
     </section>
